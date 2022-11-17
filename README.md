@@ -28,7 +28,7 @@ Movies are an inseparable part of our lives. They are a form of art, loved and c
 
   
 
-FreebaseID-to-IMDbID dataset - We have decided to make use of the Wikidata Query Service in order to create a bridge between the CMU dataset and IMDb ratings dataset.
+FreebaseID-to-IMDbID dataset - We have decided to make use of the [Wikidata Query Service](https://query.wikidata.org/#PREFIX%20wd%3A%20%3Chttp%3A%2F%2Fwww.wikidata.org%2Fentity%2F%3E%0APREFIX%20wdt%3A%20%3Chttp%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2F%3E%0APREFIX%20wikibase%3A%20%3Chttp%3A%2F%2Fwikiba.se%2Fontology%23%3E%0A%0ASELECT%20%3Fitem%20%3FfreebaseID%20%3FimdbID%0AWHERE%20%7B%0A%20%20%3Fitem%20wdt%3AP31%2Fwdt%3AP279%2a%20wd%3AQ11424.%0A%20%20%3Fitem%20wdt%3AP646%20%3FfreebaseID.%0A%20%20%3Fitem%20wdt%3AP345%20%3FimdbID.%0A%20%20%7D) in order to create a bridge between the CMU dataset and IMDb ratings dataset.
 
 ### Methods
 
