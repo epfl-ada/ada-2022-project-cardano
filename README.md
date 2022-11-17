@@ -70,7 +70,7 @@ For the numerical continuous features, we will calculate the Pierson’s correla
 These coefficients cannot be derived for the categorical features. For them, we will create a boxplot for each value of the categorical variable.
 
 ![](https://lh6.googleusercontent.com/tbTpR_fS_f-NGpnRMqGvntsdTSdwp5q8v1gyoDTtxU-rExv3hXrBUWnzHHc80rhzTBpZMzr79NMgxgZo6LLH2x2IvA69AA7BH146mm8nvJU1iFJgSTHRgSYu259l1_1HAX3NepnsA4L4kEwOl689nEUZiA1g4hvELdXS3GvQgcWIJZFpN_fjgZGFjr9Z7Q)
-<center>Example of using a categorical box plot</center>
+<p align = "center">Example of using a categorical box plot</p>
   
 
 Then, for a quantitative calculation, we will compute the mutual information, or group by value of the categorical variable and compute the mean of the ratings corresponding to each of these values. We will investigate whether the countries with the highest average ratings are the ones leading to the highest ratings.
