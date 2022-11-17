@@ -24,7 +24,7 @@ Movies are an inseparable part of our lives. They are a form of art, loved and c
 
 ### Proposed additional dataset
 
-IMDb for the ratings as a measurement of movie success. We observed that movies are not uniquely identified by their names, nor by both (movie_name, release_year) tuple (e.g. “Sangam”, 1964). Even when we considered the full date instead of the year only there was an ambiguity. To tackle this problem, we used Wikidata Query Service to obtain IMDb ids based on freebase ids. This allowed us to successfully merge the two. The IMDb ratings dataset provides us with an average rating for each movie (on the scale from 1 to 10) as well as the number of votes, which can also be interpreted as popularity.
+[IMDb_ratings](https://www.imdb.com/interfaces/) for the ratings as a measurement of movie success. We observed that movies are not uniquely identified by their names, nor by both (movie_name, release_year) tuple (e.g. “Sangam”, 1964). Even when we considered the full date instead of the year only there was an ambiguity. To tackle this problem, we used Wikidata Query Service to obtain IMDb ids based on freebase ids. This allowed us to successfully merge the two. The IMDb ratings dataset provides us with an average rating for each movie (on the scale from 1 to 10) as well as the number of votes, which can also be interpreted as popularity.
 
   
 
