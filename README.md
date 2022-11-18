@@ -47,13 +47,8 @@ During exploratory data analysis, we discovered a tremendous amount of null valu
 -   After various attempts to properly merge the CMU and IMDb ratings dataset (including - relying on movie name, release year and runtime) there were some movies which due to minor differences were left out. This led us to use the FreebaseID-toIMDbID dataset. Due to API restrictions (30 queries per 1 minute), we fetched the entire dataset from the Wikidata Query Service and then used it as a bridge between the 2 other datasets.
     
 
-  
-  
 
--   Investigate correlation between two categorical features:
-    
-
--   Example using Languages and Countries:
+-   Investigate correlation between two categorical features, e.g. Languages and Countries:
     
 
 We noticed that some movies could have several languages associated with them. To compute the correlation we created all the combinations between these languages and the country of the movie. Then, we calculated the occurrences for each pair. From that we performed a chi squared-tests with the null hypothesis being that the two features are independent. We observed the p-value.
@@ -113,7 +108,7 @@ In the future, we want to analyze the effect of collectively relevant features a
 -   Teammate 3 and 4: polish notebooks and add necessary visualisations
 -   Teammates 1,2,3,4: answers to research questions
 
-### Questions:
+### Questions for TAs:
 
 -   For the visualization part, which type of plots are preferable? Pie charts or box plots?
     
