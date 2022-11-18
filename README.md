@@ -98,7 +98,20 @@ In the future, we want to analyze the effect of collectively relevant features a
 -   Website creation and polishing of repository and storytelling - this step is of high importance for the successful completion of the project and presenting our results.
     
 
-  
+### Proposed timeline:
+
+-   25.11.2022 Continue analysis from milestone 2
+-   05.12.2022 Apply proposed data analysis pipeline in regards to research questions
+-   10.12.2022 Summerize all insights taken from the data
+-   15.12.2022 Prepare datastory
+-   23.12.2022 Milestone 3 deadline
+
+### Organizational within the team:
+ 
+SpaCy Training on AD2 and AD3: Teammate 1: 
+Datastory: Teammate 2:
+Website: Teammate 3 and 4: 
+Steps: Teammate 1,2,3,4:
 
 Questions:
 
