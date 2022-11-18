@@ -1,3 +1,10 @@
+#### Files description
+* `dataPreprocessing.ipynb`: notebook that contains the steps for preprocessing the data, in order to convert the data from the movie.metadata.tsv file of the CMU dataset to a format that enables us to use it for our analysis.
+* `projectMilestone2.ipynb`: notebook that contains the first steps of our study.
+
+
+
+
 ### Title
 
 Temporal and spatial analysis of the characteristics of successful movies
