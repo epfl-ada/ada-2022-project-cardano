@@ -46,7 +46,7 @@ Constructing the data:
 
 
 
--   **Investigate correlation between two categorical features** (e.g. Languages and Countries):
+-   **Investigating correlation between two categorical features** (e.g. Languages and Countries):
 We noticed that some movies could have several languages associated with them. To compute the correlation, we created all the combinations between these languages and the country of the movie. Then, we calculated the occurrences for each pair. From that, we performed a chi squared-test with the null hypothesis being that the two features are independent. We observed the p-value.
 
 
@@ -65,11 +65,13 @@ Then, for a quantitative calculation, we will compute the mutual information, or
 
 Finally, to get a ranking of the features based on their effect on the success, including temporal and spatial analysis, the decision tree model will be utilized.
 
--   In the future, we want to analyze the effect of collectively relevant features and try to apply an online feature selection.
+
+
+-   **Analyzing the collective effect of features**: In the future, we want to analyze the effect of collectively relevant features and try to apply an online feature selection.
 
 
 
--   **Visualization** - ideas for presenting results from our analysis include:
+-   **Visualizing** - ideas for presenting results from our analysis include:
 
     -   World map showing features of movies produced in different countries/ continents both as count and as highest average rating.
     
@@ -77,7 +79,7 @@ Finally, to get a ranking of the features based on their effect on the success, 
 
 
 
--   **Website creation and polishing of repository and storytelling**: This step is of high importance for the successful completion of the project and presenting our results.
+-   **Creating the website, polishing the repository and the storytelling**: This step is of high importance for the successful completion of the project and presenting our results.
 
 
 
