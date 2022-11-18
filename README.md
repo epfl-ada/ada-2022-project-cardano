@@ -65,7 +65,7 @@ Then, for a quantitative calculation, we will compute the mutual information, or
 
 Finally, to get a ranking of the features based on their effect on the success, including temporal and spatial analysis, the decision tree model will be utilized.
 
-    -   In the future, we want to analyze the effect of collectively relevant features and try to apply an online feature selection.
+-   In the future, we want to analyze the effect of collectively relevant features and try to apply an online feature selection.
 
 
 
