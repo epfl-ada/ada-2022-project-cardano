@@ -95,6 +95,9 @@ Our website can be found under [this](https://jdodinh.github.io/CardanoCritic/) 
 * `models.ipynb`: notebook that contains functions we used for a regression and director-related analysis
 * `requirements.txt`: libraries needed to run the code
 
+### Preprocessed data
+The final version of our dataset can be found in `datasets` folder. Additionally, we upload there the data related to creating a world map (for visualisations in `analysis.ipynb`).
+
 ### Proposed additional source of data
 [IMDb_title.basics](https://www.imdb.com/interfaces/) - We use the 'title types' for removing tv series and keeping only valid movied. 
 
