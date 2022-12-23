@@ -99,4 +99,5 @@ https://pro.imdb.com
 
 ### Proposed additional source of data
 [IMDb_title.basics](https://www.imdb.com/interfaces/) - We use the 'title types' for removing tv series and keeping only valid movied. 
+
 [IMDb_pro](https:/pro.imdb.com) - We use IMDb pro as an API for providing us additional details related to movies: budgets, box offices, directors, We write a few web scraping scripts to automatize this task. 
