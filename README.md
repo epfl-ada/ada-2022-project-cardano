@@ -101,4 +101,4 @@ The final version of our dataset can be found in `datasets` folder. Additionally
 ### Proposed additional source of data
 [IMDb_title.basics](https://www.imdb.com/interfaces/) - We use the 'title types' for removing tv series and keeping only valid movied. 
 
-[IMDb_pro](https://pro.imdb.com/signup/index.html) - We use IMDb pro as an API for providing us additional details related to movies: budgets, box offices, directors, We write a few web scraping scripts to automatize this task. 
+[IMDb_pro](https://pro.imdb.com/signup/index.html) - We use IMDb pro as an API for providing us additional details related to movies: budgets, box offices, directors, etc. We write a few web scraping scripts to automatize this task in `preprocessing.ipynb`.
