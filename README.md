@@ -60,13 +60,10 @@ Correlation between each feature from the dataset and the rating will be compute
     -   For the numerical continuous features, we will calculate the Pierson’s correlation coefficient, in order to get the strength of linear dependence between the feature and the success. Moreover, to determine if there is any non-linear dependence, we will compute the Spearman’s correlation coefficient.
 
     -   These coefficients cannot be derived for the categorical features. For them, we will first, for visualization, create a boxplot for each value of the categorical variables.
-    
-![](https://lh6.googleusercontent.com/tbTpR_fS_f-NGpnRMqGvntsdTSdwp5q8v1gyoDTtxU-rExv3hXrBUWnzHHc80rhzTBpZMzr79NMgxgZo6LLH2x2IvA69AA7BH146mm8nvJU1iFJgSTHRgSYu259l1_1HAX3NepnsA4L4kEwOl689nEUZiA1g4hvELdXS3GvQgcWIJZFpN_fjgZGFjr9Z7Q)
-<p align = "center">Example of using a categorical box plot</p>
 
 Then, for a quantitative calculation, we will compute the mutual information in order to obtain the strength of existing relationships. We could also group by value of the categorical variable and compute the mean of the ratings corresponding to each of these values. From this, we will investigate which countries contribute to a higher average rating.
 
-To get a ranking of the features, the decision tree model will be utilized.
+To get a ranking of the features, the random forest model will be utilized.
 
 
 
@@ -87,15 +84,13 @@ To get a ranking of the features, the decision tree model will be utilized.
 
 
 -   **Creating the website, polishing the repository and the storytelling**: This step is of high importance for the successful completion of the project and presenting our results.
-https://pro.imdb.com
-
 
 ## Milestone 3
 ### Project's data story
 Our website can be found under [this](https://jdodinh.github.io/CardanoCritic/) link.
 
 ### Files description
-* `preprocessing.ipynb`: notebook that contains the steps for the final preprocessing of the data, including extending it with information scraped from [IMDb_pro](https:/pro.imdb.com)
+* `preprocessing.ipynb`: notebook that contains the steps for the final preprocessing of the data, including extending it with information scraped from [IMDb_pro](https:/pro.imdb.com/)
 * `analysis.ipynb`: notebook that contains main analysis we perfmed on the final version of the dataset
 * `models.ipynb`: notebook that contains functions we used for a regression and director-related analysis
 * `requirements.txt`: libraries needed to run the code
@@ -103,4 +98,4 @@ Our website can be found under [this](https://jdodinh.github.io/CardanoCritic/) 
 ### Proposed additional source of data
 [IMDb_title.basics](https://www.imdb.com/interfaces/) - We use the 'title types' for removing tv series and keeping only valid movied. 
 
-[IMDb_pro](https:/pro.imdb.com) - We use IMDb pro as an API for providing us additional details related to movies: budgets, box offices, directors, We write a few web scraping scripts to automatize this task. 
+[IMDb_pro](https:/pro.imdb.com/) - We use IMDb pro as an API for providing us additional details related to movies: budgets, box offices, directors, We write a few web scraping scripts to automatize this task. 
