@@ -87,30 +87,16 @@ To get a ranking of the features, the decision tree model will be utilized.
 
 
 -   **Creating the website, polishing the repository and the storytelling**: This step is of high importance for the successful completion of the project and presenting our results.
+https://pro.imdb.com
 
 
+## Milestone 3
 
-### Proposed timeline:
+#### Files description
+* `preprocessing.ipynb`: notebook that contains the steps for the final preprocessing of the data, including extending it with information scraped from [IMDb_ratings](https:/pro.imdb.com)
+* `analysis.ipynb`: notebook that contains main analysis we perfmed on the final version of the dataset
+* `models.ipynb`: notebook that contains functions we used for a regression and director-related analysis
 
--   25.11.2022 Continue analysis from milestone 2
--   05.12.2022 Apply proposed data analysis pipeline in regards to research questions
--   10.12.2022 Summarize all insights taken from the data
--   15.12.2022 Prepare datastory
--   23.12.2022 Milestone 3 deadline
-
-
-
-### Organizational within the team:
- 
--   Teammate 1: prepare insights taken from tha data
--   Teammate 2: datastory, create the website
--   Teammate 3 and 4: polish notebooks and add necessary visualisations
--   Teammates 1,2,3,4: answers to research questions
-
-
-
-### Questions for TAs:
-
--   For the visualization part, which type of plots are preferable? Pie charts or box plots?
-    
--   Should we remove rows having nan values for any of the analyzed features?
+### Proposed additional source of data
+[IMDb_title.basics](https://www.imdb.com/interfaces/) - We use the 'title types' for removing tv series and keeping only valid movied. 
+[IMDb_pro](https:/pro.imdb.com) - We use IMDb pro as an API for providing us additional details related to movies: budgets, box offices, directors, We write a few web scraping scripts to automatize this task. 
