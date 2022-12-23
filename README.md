@@ -90,10 +90,10 @@ To get a ranking of the features, the random forest model will be utilized.
 Our website can be found under [this](https://jdodinh.github.io/CardanoCritic/) link.
 
 ### Files description
-* `requirements.txt`: libraries needed to run the code
 * `preprocessing.ipynb`: notebook that contains the steps for the final preprocessing of the data, including extending it with information scraped from [IMDb_pro](https://pro.imdb.com/signup/index.html)
 * `analysis.ipynb`: notebook that contains main analysis we perfmed on the final version of the dataset
 * `models.ipynb`: notebook that contains functions we used for a regression and director-related analysis
+* `requirements.txt`: libraries needed to run the code
 
 ### Preprocessed data
 The final version of our dataset can be found in `datasets` folder. Additionally, we upload there the data related to creating a world map (for visualisations in `analysis.ipynb`).
