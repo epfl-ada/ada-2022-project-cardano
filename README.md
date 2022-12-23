@@ -90,7 +90,7 @@ To get a ranking of the features, the random forest model will be utilized.
 Our website can be found under [this](https://jdodinh.github.io/CardanoCritic/) link.
 
 ### Files description
-* `preprocessing.ipynb`: notebook that contains the steps for the final preprocessing of the data, including extending it with information scraped from [IMDb_pro](https:/pro.imdb.com/)
+* `preprocessing.ipynb`: notebook that contains the steps for the final preprocessing of the data, including extending it with information scraped from [IMDb_pro](https://www.pro.imdb.com/)
 * `analysis.ipynb`: notebook that contains main analysis we perfmed on the final version of the dataset
 * `models.ipynb`: notebook that contains functions we used for a regression and director-related analysis
 * `requirements.txt`: libraries needed to run the code
@@ -98,4 +98,4 @@ Our website can be found under [this](https://jdodinh.github.io/CardanoCritic/) 
 ### Proposed additional source of data
 [IMDb_title.basics](https://www.imdb.com/interfaces/) - We use the 'title types' for removing tv series and keeping only valid movied. 
 
-[IMDb_pro](https:/pro.imdb.com/) - We use IMDb pro as an API for providing us additional details related to movies: budgets, box offices, directors, We write a few web scraping scripts to automatize this task. 
+[IMDb_pro](https://www.pro.imdb.com/) - We use IMDb pro as an API for providing us additional details related to movies: budgets, box offices, directors, We write a few web scraping scripts to automatize this task. 
