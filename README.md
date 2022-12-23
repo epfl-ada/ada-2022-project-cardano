@@ -95,7 +95,7 @@ https://pro.imdb.com
 Our website can be found under [this](https://jdodinh.github.io/CardanoCritic/) link.
 
 ### Files description
-* `preprocessing.ipynb`: notebook that contains the steps for the final preprocessing of the data, including extending it with information scraped from [IMDb_ratings](https:/pro.imdb.com)
+* `preprocessing.ipynb`: notebook that contains the steps for the final preprocessing of the data, including extending it with information scraped from [IMDb_pro](https:/pro.imdb.com)
 * `analysis.ipynb`: notebook that contains main analysis we perfmed on the final version of the dataset
 * `models.ipynb`: notebook that contains functions we used for a regression and director-related analysis
 * `requirements.txt`: libraries needed to run the code
