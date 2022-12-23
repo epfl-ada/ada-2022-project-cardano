@@ -1,6 +1,6 @@
 ## Milestone 2
 
-#### Files description
+### Files description
 * `dataPreprocessing.ipynb`: notebook that contains the steps for preprocessing the data, in order to convert the data from the movie.metadata.tsv file of the CMU dataset to a format that enables us to use it for our analysis.
 * `projectMilestone2.ipynb`: notebook that contains the first steps of our study.
 
@@ -91,8 +91,10 @@ https://pro.imdb.com
 
 
 ## Milestone 3
+### Project's data story
+Our website can be found under [this](https://jdodinh.github.io/CardanoCritic/) link.
 
-#### Files description
+### Files description
 * `preprocessing.ipynb`: notebook that contains the steps for the final preprocessing of the data, including extending it with information scraped from [IMDb_ratings](https:/pro.imdb.com)
 * `analysis.ipynb`: notebook that contains main analysis we perfmed on the final version of the dataset
 * `models.ipynb`: notebook that contains functions we used for a regression and director-related analysis
