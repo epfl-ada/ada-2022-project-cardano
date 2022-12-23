@@ -1,0 +1,17 @@
+Python 3.8
+numpy
+pandas
+math
+statsmodels
+bs4
+requests
+sklearn
+collections
+tqdm
+matplotlib
+seaborn
+calendar
+os
+ast
+itertools
+pyshp
